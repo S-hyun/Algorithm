@@ -1,0 +1,9 @@
+import sys
+
+a, b = sys.stdin.readline().rstrip().split()
+
+print(int(a) + int(b))
+print(int(a) - int(b))
+print(int(a) * int(b))
+print(int(int(a) / int(b)))
+print(int(a) % int(b))
